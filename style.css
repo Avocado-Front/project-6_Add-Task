@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #c3c6d6;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 55px;
+    padding-left: 55px;
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.inps{
+    text-align: center;
+}
+.name-inp{
+    max-width: 80%;
+    width: 70%;
+    height: 30px;
+    outline:none;
+    color:#ffff;
+    background-color: #6578ce;
+    border-radius:5px;
+    border-width:0;
+    padding-left:5px;
+    text-align: center;
+}
+.name-inp::placeholder{
+    color: #fff;
+}
+.task-inp::placeholder{
+    color: #fff;
+}
+.task-inp{
+    max-width: 50%;
+    width: 70%;
+    outline:0;
+    color:#ffff;
+    border-radius:5px;
+    border-width:0;
+    background-color: #6578ce;
+    padding-left:5px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.add-btn{
+    display: block;
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 45%;
+    color: #ffff;
+    border-radius: 5px;
+    background-color: #616c9d;
+    border: 0;
+}
+
+.name-user{
+    border-left-style: solid ;
+    border-left-color:rgb(174, 49, 49);
+    border-right-style: solid;
+    border-right-color:rgb(255, 157, 0);
+    margin: 20px 20px;
+
+}
+.nameuser{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5614d0;
+    font-size: 25px;
+}
+.task{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ca5c0e;
+    list-style:decimal;
+    margin-top: 10px;
+}
+@media only screen and (max-width:576px){
+    .add-btn{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
